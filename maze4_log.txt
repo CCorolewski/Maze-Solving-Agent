@@ -1,0 +1,1054 @@
+- West: 0
+
+Continue North to [-4, -6]:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -6]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 7
+   ↳ Result: 2
+   ↳ Result: 0
+💭  Agent: From [-4, -6]:
+- North: 0
+- East: 7
+- South: 2 (back to [-3, -6] and [-2, -6])
+- West: 0
+
+East has 7 cells! Let me check for traps and go East:
+🔧  Calling: check_trap({'direction': 1})
+🔧  Calling: check_trap({'direction': 2})
+🔧  Calling: check_trap({'direction': 3})
+🔧  Calling: check_trap({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: Go East to [-4, -5]:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -5]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 6
+   ↳ Result: 0
+   ↳ Result: 1
+💭  Agent: From [-4, -5]:
+- North: 0
+- East: 6
+- South: 0
+- West: 1
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -4]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 5
+   ↳ Result: 0
+   ↳ Result: 2
+💭  Agent: From [-4, -4]:
+- North: 0
+- East: 5
+- South: 0
+- West: 2
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -3]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 4
+   ↳ Result: 0
+   ↳ Result: 3
+💭  Agent: From [-4, -3]:
+- North: 0
+- East: 4
+- South: 0
+- West: 3
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -2]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 3
+   ↳ Result: 0
+   ↳ Result: 4
+💭  Agent: From [-4, -2]:
+- North: 0
+- East: 3
+- South: 0
+- West: 4
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -1]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 2
+   ↳ Result: 0
+   ↳ Result: 5
+💭  Agent: From [-4, -1]:
+- North: 0
+- East: 2
+- South: 0
+- West: 5
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 1
+   ↳ Result: 0
+   ↳ Result: 6
+💭  Agent: From [-4, 0]:
+- North: 0
+- East: 1
+- South: 0
+- West: 6
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, 1]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 4
+   ↳ Result: 7
+💭  Agent: From [-4, 1]:
+- North: 0
+- East: 0
+- South: 4
+- West: 7
+
+Branch! South goes 4 cells, West goes back 7 cells. Let me check for traps and try South:
+🔧  Calling: check_trap({'direction': 1})
+🔧  Calling: check_trap({'direction': 2})
+🔧  Calling: check_trap({'direction': 3})
+🔧  Calling: check_trap({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: Go South to [-3, 0]:
+🔧  Calling: move({'direction': 3, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-3, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 1
+   ↳ Result: 3
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: From [-3, 0]:
+- North: 1 (back to [-4, 0])
+- East: 0
+- South: 3
+- West: 0
+
+Continue South:
+🔧  Calling: move({'direction': 3, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-2, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 2
+   ↳ Result: 0
+   ↳ Result: 2
+   ↳ Result: 0
+💭  Agent: From [-2, 0]:
+- North: 2 ([-3, 0] and [-4, 0])
+- East: 0
+- South: 2
+- West: 0
+
+Branch! North and South both go 2 cells. Let me check for traps and try North:
+🔧  Calling: check_trap({'direction': 1})
+🔧  Calling: check_trap({'direction': 2})
+🔧  Calling: check_trap({'direction': 3})
+🔧  Calling: check_trap({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: Go North to [-3, 0] (back). Let me try South:
+🔧  Calling: move({'direction': 3, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-1, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 3
+   ↳ Result: 1
+   ↳ Result: 0
+💭  Agent: From [-1, 0]:
+- North: 3
+- East: 0
+- South: 1
+- West: 0
+
+Continue South:
+🔧  Calling: move({'direction': 3, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 4
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 2
+💭  Agent: From [0, 0]:
+- North: 4
+- East: 0
+- South: 0
+- West: 2
+
+I'm back at the start but facing East now instead of West. Let me check if this is the exit:
+🔧  Calling: is_solved({})
+   ↳ Result: false
+💭  Agent: Not the exit. I've been going in a big loop. Let me try the alternative path from [0, 0] - the East path that I initially missed:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 0
+💭  Agent: East is blocked at [0, 0]. Let me check what's actually available from [0, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 4
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 2
+💭  Agent: From [0, 0]:
+- North: 4
+- East: 0 (blocked)
+- South: 0 (blocked) 
+- West: 2
+
+So North goes 4 cells and West goes 2 cells. Let me try North:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-1, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 3
+   ↳ Result: 0
+   ↳ Result: 1
+   ↳ Result: 0
+💭  Agent: From [-1, 0]:
+- North: 3
+- East: 0
+- South: 1 (back to [0, 0])
+- West: 0
+
+Continue North:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-2, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 2
+   ↳ Result: 0
+   ↳ Result: 2
+   ↳ Result: 0
+💭  Agent: From [-2, 0]:
+- North: 2
+- East: 0
+- South: 2 (back to [-1, 0] and [0, 0])
+- West: 0
+
+Branch! North and South both go 2 cells. Let me check for traps and try North:
+🔧  Calling: check_trap({'direction': 1})
+🔧  Calling: check_trap({'direction': 2})
+🔧  Calling: check_trap({'direction': 3})
+🔧  Calling: check_trap({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: Go North to [-3, 0]:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-3, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 1
+   ↳ Result: 0
+   ↳ Result: 3
+   ↳ Result: 0
+💭  Agent: From [-3, 0]:
+- North: 1
+- East: 0
+- South: 3 (back to [-2, 0], [-1, 0], [0, 0])
+- West: 0
+
+Continue North:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 4
+   ↳ Result: 7
+💭  Agent: From [-4, 0]:
+- North: 0
+- East: 0
+- South: 4 (back to [-3, 0], [-2, 0], [-1, 0], [0, 0])
+- West: 7
+
+West has 7 cells! This looks familiar. Let me check for traps and go West:
+🔧  Calling: check_trap({'direction': 1})
+🔧  Calling: check_trap({'direction': 2})
+🔧  Calling: check_trap({'direction': 3})
+🔧  Calling: check_trap({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: Go West to [-4, -1]:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -1]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 1
+   ↳ Result: 0
+   ↳ Result: 6
+💭  Agent: From [-4, -1]:
+- North: 0
+- East: 1 (back to [-4, 0])
+- South: 0
+- West: 6
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -2]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 2
+   ↳ Result: 0
+   ↳ Result: 5
+💭  Agent: From [-4, -2]:
+- North: 0
+- East: 2
+- South: 0
+- West: 5
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -3]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 3
+   ↳ Result: 0
+   ↳ Result: 4
+💭  Agent: From [-4, -3]:
+- North: 0
+- East: 3
+- South: 0
+- West: 4
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -4]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 4
+   ↳ Result: 3
+   ↳ Result: 0
+💭  Agent: From [-4, -4]:
+- North: 0
+- East: 4
+- South: 0
+- West: 3
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -5]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 5
+   ↳ Result: 0
+   ↳ Result: 2
+💭  Agent: From [-4, -5]:
+- North: 0
+- East: 5
+- South: 0
+- West: 2
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -6]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 6
+   ↳ Result: 0
+   ↳ Result: 1
+💭  Agent: From [-4, -6]:
+- North: 0
+- East: 6
+- South: 0
+- West: 1
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-4, -7]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 7
+   ↳ Result: 2
+   ↳ Result: 0
+💭  Agent: From [-4, -7]:
+- North: 0
+- East: 7
+- South: 0
+- West: 2
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 0
+💭  Agent: At [-4, -8]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 7
+   ↳ Result: 2
+   ↳ Result: 0
+💭  Agent: From [-4, -8]:
+- North: 0
+- East: 7
+- South: 0
+- West: 0
+
+West is blocked! East goes back the way I came. Let me check North and South:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 3})
+   ↳ Result: 0
+   ↳ Result: 2
+💭  Agent: From [-4, -8]:
+- North: 0
+- South: 2
+
+Let me try South:
+🔧  Calling: move({'direction': 3, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-3, -8]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 1
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 1
+💭  Agent: From [-3, -8]:
+- North: 1 (back to [-4, -8])
+- East: 0
+- South: 1 (to [-2, -8])
+- West: 0
+
+Continue South:
+🔧  Calling: move({'direction': 3, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-2, -8]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 2
+   ↳ Result: 5
+   ↳ Result: 0
+   ↳ Result: 2
+💭  Agent: From [-2, -8]:
+- North: 2 ([-3, -8] and [-4, -8])
+- East: 5
+- South: 0
+- West: 2
+
+Branch! North goes back, East goes forward 5 cells, West goes back 2 cells. Let me check for traps and try East:
+🔧  Calling: check_trap({'direction': 1})
+🔧  Calling: check_trap({'direction': 2})
+🔧  Calling: check_trap({'direction': 3})
+🔧  Calling: check_trap({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: Go East to [-2, -7]:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-2, -7]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 4
+   ↳ Result: 0
+   ↳ Result: 3
+💭  Agent: From [-2, -7]:
+- North: 0
+- East: 4
+- South: 0
+- West: 3
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-2, -6]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 3
+   ↳ Result: 0
+   ↳ Result: 4
+💭  Agent: From [-2, -6]:
+- North: 0
+- East: 3
+- South: 0
+- West: 4
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-2, -5]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 2
+   ↳ Result: 0
+   ↳ Result: 5
+💭  Agent: From [-2, -5]:
+- North: 0
+- East: 2
+- South: 0
+- West: 5
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-2, -4]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 1
+   ↳ Result: 0
+   ↳ Result: 6
+💭  Agent: From [-2, -4]:
+- North: 0
+- East: 1
+- South: 0
+- West: 6
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-2, -3]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 2
+   ↳ Result: 7
+💭  Agent: From [-2, -3]:
+- North: 0
+- East: 0
+- South: 2
+- West: 7
+
+Branch! South goes 2 cells, West goes back 7 cells. Let me check for traps and try South:
+🔧  Calling: check_trap({'direction': 1})
+🔧  Calling: check_trap({'direction': 2})
+🔧  Calling: check_trap({'direction': 3})
+🔧  Calling: check_trap({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: Go South to [-1, -3]:
+🔧  Calling: move({'direction': 3, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-1, -3]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 1
+   ↳ Result: 0
+   ↳ Result: 1
+   ↳ Result: 0
+💭  Agent: From [-1, -3]:
+- North: 1 (back to [-2, -3])
+- East: 0
+- South: 1 (to [0, -3])
+- West: 0
+
+Continue South:
+🔧  Calling: move({'direction': 3, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -3]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 2
+   ↳ Result: 2
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: From [0, -3]:
+- North: 2 ([-1, -3] and [-2, -3])
+- East: 2
+- South: 0
+- West: 0
+
+Branch! North and East both go 2 cells. Let me check for traps and try North:
+🔧  Calling: check_trap({'direction': 1})
+🔧  Calling: check_trap({'direction': 2})
+🔧  Calling: check_trap({'direction': 3})
+🔧  Calling: check_trap({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: Go North to [-1, -3] (back). Let me try East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -2]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 1
+   ↳ Result: 0
+   ↳ Result: 1
+💭  Agent: From [0, -2]:
+- North: 0
+- East: 1 (to [0, -1])
+- South: 0
+- West: 1 (back to [0, -3])
+
+Continue East:
+🔧  Calling: move({'direction': 2, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -1]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 4
+   ↳ Result: 0
+   ↳ Result: 2
+   ↳ Result: 0
+💭  Agent: From [0, -1]:
+- North: 4
+- East: 0
+- South: 0
+- West: 2
+
+This looks familiar. Let me check North:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-1, -1]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 3
+   ↳ Result: 0
+   ↳ Result: 1
+   ↳ Result: 0
+💭  Agent: From [-1, -1]:
+- North: 3
+- East: 0
+- South: 1 (back to [0, -1])
+- West: 0
+
+Continue North:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [-2, -1]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 2
+   ↳ Result: 0
+   ↳ Result: 2
+   ↳ Result: 0
+💭  Agent: From [-2, -1]:
+- North: 2
+- East: 0
+- South: 2 (back to [-1, -1] and [0, -1])
+- West: 0
+
+I'm going in circles again. Let me check if I've solved it:
+🔧  Calling: is_solved({})
+   ↳ Result: false
+💭  Agent: Let me try a completely different strategy. Let me go back to the start and try to be more systematic about saving branch points. I'll use a different approach - let me try to follow the perimeter or look for patterns.
+
+Let me return to start:
+🔧  Calling: move({'direction': 4, 'steps': 2})
+   ↳ Result: 0
+💭  Agent: At [0, -2]. Let me go all the way back to [0, 0]:
+🔧  Calling: move({'direction': 2, 'steps': 2})
+   ↳ Result: 0
+💭  Agent: Back at [0, 0]. Let me try to think about this differently. Since I've been going in loops, let me try to jump to some coordinates I haven't tried much and see if I can find the exit that way.
+
+Let me try going to some positive coordinates:
+🔧  Calling: move({'direction': 2, 'steps': 5})
+   ↳ Result: 0
+💭  Agent: Still at [0, 0]. East is blocked. Let me try South:
+🔧  Calling: move({'direction': 3, 'steps': 5})
+   ↳ Result: 2
+💭  Agent: At [2, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 4
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 2
+💭  Agent: From [2, 0]:
+- North: 4
+- East: 0
+- South: 0
+- West: 2
+
+Let me try North:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [1, 0]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 3
+   ↳ Result: 0
+   ↳ Result: 1
+   ↳ Result: 0
+💭  Agent: From [1, 0]:
+- North: 3
+- East: 0
+- South: 1 (back to [2, 0])
+- West: 0
+
+Continue North:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, 0] - back to start. Let me try a different approach from [2, 0]. Let me go West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 0
+💭  Agent: At [2, -1]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 2
+   ↳ Result: 2
+   ↳ Result: 0
+💭  Agent: From [2, -1]:
+- North: 2
+- East: 0 (back to [2, 0])
+- South: 2
+- West: 0
+
+Branch! North and South both go 2 cells. Let me check for traps and try North:
+🔧  Calling: check_trap({'direction': 1})
+🔧  Calling: check_trap({'direction': 2})
+🔧  Calling: check_trap({'direction': 3})
+🔧  Calling: check_trap({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: Go North to [1, -1]:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [1, -1]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 1
+   ↳ Result: 0
+   ↳ Result: 3
+   ↳ Result: 0
+💭  Agent: From [1, -1]:
+- North: 1
+- East: 0
+- South: 3 (back to [2, -1], [1, -1] wait no, that's wrong)
+- West: 0
+
+Let me recalculate: From [1, -1]:
+- North: 1 (to [0, -1])
+- East: 0
+- South: 3 (to [2, -1], [3, -1], [4, -1])
+- West: 0
+
+Continue North:
+🔧  Calling: move({'direction': 1, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -1]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 4
+   ↳ Result: 7
+💭  Agent: From [0, -1]:
+- North: 0
+- East: 0
+- South: 4 (back to [1, -1], [2, -1], [3, -1], [4, -1])
+- West: 7
+
+West has 7 cells! Let me check for traps and go West:
+🔧  Calling: check_trap({'direction': 1})
+🔧  Calling: check_trap({'direction': 2})
+🔧  Calling: check_trap({'direction': 3})
+🔧  Calling: check_trap({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+   ↳ Result: 0
+💭  Agent: Go West to [0, -2]:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -2]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 1
+   ↳ Result: 0
+   ↳ Result: 6
+💭  Agent: From [0, -2]:
+- North: 0
+- East: 1 (back to [0, -1])
+- South: 0
+- West: 6
+
+Continue West to [0, -3]:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -3]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 2
+   ↳ Result: 0
+   ↳ Result: 5
+💭  Agent: From [0, -3]:
+- North: 0
+- East: 2
+- South: 0
+- West: 5
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -4]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 3
+   ↳ Result: 0
+   ↳ Result: 4
+💭  Agent: From [0, -4]:
+- North: 0
+- East: 3
+- South: 0
+- West: 4
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -5]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 4
+   ↳ Result: 0
+   ↳ Result: 3
+💭  Agent: From [0, -5]:
+- North: 0
+- East: 4
+- South: 0
+- West: 3
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -6]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 5
+   ↳ Result: 0
+   ↳ Result: 2
+💭  Agent: From [0, -6]:
+- North: 0
+- East: 5
+- South: 0
+- West: 2
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -7]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 6
+   ↳ Result: 0
+   ↳ Result: 1
+💭  Agent: From [0, -7]:
+- North: 0
+- East: 6
+- South: 0
+- West: 1
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 1
+💭  Agent: At [0, -8]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 7
+   ↳ Result: 2
+   ↳ Result: 0
+💭  Agent: From [0, -8]:
+- North: 0
+- East: 7
+- South: 0
+- West: 2
+
+Continue West:
+🔧  Calling: move({'direction': 4, 'steps': 1})
+   ↳ Result: 0
+💭  Agent: At [0, -9]:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 2})
+🔧  Calling: check_direction_self({'direction': 3})
+🔧  Calling: check_direction_self({'direction': 4})
+   ↳ Result: 0
+   ↳ Result: 7
+   ↳ Result: 2
+   ↳ Result: 0
+💭  Agent: From [0, -9]:
+- North: 0
+- East: 7
+- South: 0
+- West: 0
+
+West is blocked! East goes back the way I came. Let me check North and South:
+🔧  Calling: check_direction_self({'direction': 1})
+🔧  Calling: check_direction_self({'direction': 3})
+   ↳ Result: 2
+   ↳ Result: 0
+User quit game
+calebcorolewski@calebcorolewski:~/Documents/classes/cs497/cs497-b2-1/builds/b2$ 
